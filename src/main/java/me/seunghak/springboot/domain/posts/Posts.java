@@ -3,6 +3,7 @@ package me.seunghak.springboot.domain.posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import me.seunghak.springboot.domain.user.Role;
 
 import javax.persistence.*;
 
@@ -31,5 +32,6 @@ public class Posts extends BaseTimeEntity {
     public void update(String title, String content) {
         this.title = title;
         this.content = content;
+
     }
 }

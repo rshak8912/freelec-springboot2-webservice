@@ -18,8 +18,7 @@ import static org.assertj.core.api.Assertions.*;
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
-@DataJpaTest
-//@SpringBootTest
+@SpringBootTest
 public class PostsRepositoryTest {
     @Autowired
     PostsRepository postsRepository;
